@@ -10,8 +10,8 @@
 
 &trackball {
     scroll-layers = <2 6>;
-    // automouse-layer = <1>;
 
+    // automouse-layer = <1>;
     // arrows {
     //     layers = <3>;
     //     bindings =
@@ -62,55 +62,55 @@
 
         OPERATION {
             bindings = <
-&kp ESC  &trans     &trans  &kp LC(E)  &trans     &trans    &trans    &trans    &kp LBKT  &kp RBKT  &kp UP    &kp BSLH
-&trans   &kp LC(A)  &trans  &kp BSPC   &kp RIGHT  &kp ESC   &kp BSPC  &mkp MB1  &mkp MB2  &trans    &mo 6     &kp GRAVE
-&trans   &trans     &trans  &trans     &kp PG_DN  &kp LEFT  &trans    &kp DOWN  &kp RET   &mkp MB1  &mkp MB2  &mo 6
+&kp ESC  &trans     &trans  &kp LC(E)  &trans     &trans    &trans    &trans    &kp LBKT  &kp RBKT  &kp UP  &kp BSLH
+&trans   &kp LC(A)  &trans  &kp BSPC   &kp RIGHT  &kp ESC   &kp BSPC  &trans    &mkp MB1  &mkp MB2  &mo 6   &kp GRAVE
+&trans   &trans     &trans  &trans     &kp PG_DN  &kp LEFT  &trans    &kp DOWN  &kp RET   &trans    &trans  &trans
          &trans     &trans  &trans     &trans     &trans    &trans    &trans                        &trans
             >;
         };
 
         SCROLL-OPERATION {
             bindings = <
-&kp ESC  &trans     &trans  &kp LC(E)  &trans     &trans    &trans    &trans    &kp LBKT  &kp RBKT  &kp UP    &kp BSLH
-&trans   &kp LC(A)  &trans  &kp BSPC   &kp RIGHT  &kp ESC   &kp BSPC  &mkp MB1  &mkp MB2  &trans    &trans    &kp GRAVE
-&trans   &trans     &trans  &trans     &kp PG_DN  &kp LEFT  &trans    &kp DOWN  &kp RET   &mkp MB1  &mkp MB2  &trans
+&kp ESC  &trans     &trans  &kp LC(E)  &trans     &trans    &trans    &trans    &kp LBKT  &kp RBKT  &kp UP  &kp BSLH
+&trans   &kp LC(A)  &trans  &kp BSPC   &kp RIGHT  &kp ESC   &kp BSPC  &trans    &mkp MB1  &mkp MB2  &trans  &kp GRAVE
+&trans   &trans     &trans  &trans     &kp PG_DN  &kp LEFT  &trans    &kp DOWN  &kp RET   &trans    &trans  &trans
          &trans     &trans  &trans     &trans     &trans    &trans    &trans                        &trans
             >;
         };
 
         NUMBER {
             bindings = <
-&kp N1  &kp N2  &kp N3  &kp N4   &kp N5     &kp N6   &kp N7    &kp N8    &kp N9    &kp N0  &kp MINUS  &kp EQUAL
-&trans  &trans  &trans  &kp DEL  &trans     &kp ESC  &kp BSPC  &mkp MB1  &mkp MB2  &trans  &trans     &kp GRAVE
-&trans  &trans  &trans  &trans   &kp PG_UP  &trans   &trans    &trans    &kp RET   &trans  &trans     &trans
+&kp N1  &kp N2  &kp N3  &kp N4   &kp N5     &kp N6   &kp N7    &kp N8  &kp N9    &kp N0    &kp MINUS  &kp EQUAL
+&trans  &trans  &trans  &kp DEL  &trans     &kp ESC  &kp BSPC  &trans  &mkp MB1  &mkp MB2  &trans     &kp GRAVE
+&trans  &trans  &trans  &trans   &kp PG_UP  &trans   &trans    &trans  &kp RET   &trans    &trans     &trans
         &trans  &trans  &trans   &trans     &trans   &trans    &trans                      &trans
             >;
         };
 
         FUNCTION {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4   &kp F5     &kp F6   &kp F7    &kp F8    &kp F9    &kp F10  &kp F11  &kp F12
-&trans  &trans  &trans  &kp DEL  &trans     &kp ESC  &kp BSPC  &mkp MB1  &mkp MB2  &trans   &trans   &kp GRAVE
-&trans  &trans  &trans  &trans   &kp PG_UP  &trans   &trans    &trans    &kp RET   &trans   &trans   &trans
-        &trans  &trans  &trans   &trans     &trans   &trans    &trans                       &trans
+&kp F1  &kp F2  &kp F3  &kp F4   &kp F5     &kp F6   &kp F7    &kp F8  &kp F9    &kp F10   &kp F11  &kp F12
+&trans  &trans  &trans  &kp DEL  &trans     &kp ESC  &kp BSPC  &trans  &mkp MB1  &mkp MB2  &trans   &kp GRAVE
+&trans  &trans  &trans  &trans   &kp PG_UP  &trans   &trans    &trans  &kp RET   &trans    &trans   &trans
+        &trans  &trans  &trans   &trans     &trans   &trans    &trans                      &trans
             >;
         };
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB2  &mo 6     &trans    &mo 7
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &mkp MB1  &mkp MB2  &mo 6
-        &trans  &trans  &trans  &trans  &trans  &trans  &trans                        &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB2  &mo 6   &mo 7
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans  &trans
+        &trans  &trans  &trans  &trans  &trans  &trans  &trans                      &trans
             >;
         };
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB2  &trans    &trans    &mo 7
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &mkp MB1  &mkp MB2  &trans
-        &trans  &trans  &trans  &trans  &trans  &trans  &trans                        &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB2  &trans  &mo 7
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans  &trans
+        &trans  &trans  &trans  &trans  &trans  &trans  &trans                      &trans
             >;
         };
 

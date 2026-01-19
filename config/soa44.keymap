@@ -63,7 +63,7 @@
         OPERATION {
             bindings = <
 &kp ESC  &trans     &trans  &kp LC(E)  &trans     &trans    &trans    &trans    &kp LBKT  &kp RBKT  &kp UP  &kp BSLH
-&trans   &kp LC(A)  &trans  &kp BSPC   &kp RIGHT  &kp ESC   &kp BSPC  &trans    &mkp MB1  &mkp MB2  &mo 6   &kp GRAVE
+&trans   &kp LC(A)  &trans  &kp DEL    &kp RIGHT  &kp ESC   &kp BSPC  &trans    &mkp MB1  &mkp MB2  &mo 6   &kp GRAVE
 &trans   &trans     &trans  &trans     &kp PG_DN  &kp LEFT  &trans    &kp DOWN  &kp RET   &trans    &trans  &trans
          &trans     &trans  &trans     &trans     &trans    &trans    &trans                        &trans
             >;
@@ -72,7 +72,7 @@
         SCROLL-OPERATION {
             bindings = <
 &kp ESC  &trans     &trans  &kp LC(E)  &trans     &trans    &trans    &trans    &kp LBKT  &kp RBKT  &kp UP  &kp BSLH
-&trans   &kp LC(A)  &trans  &kp BSPC   &kp RIGHT  &kp ESC   &kp BSPC  &trans    &mkp MB1  &mkp MB2  &trans  &kp GRAVE
+&trans   &kp LC(A)  &trans  &kp DEL    &kp RIGHT  &kp ESC   &kp BSPC  &trans    &mkp MB1  &mkp MB2  &trans  &kp GRAVE
 &trans   &trans     &trans  &trans     &kp PG_DN  &kp LEFT  &trans    &kp DOWN  &kp RET   &trans    &trans  &trans
          &trans     &trans  &trans     &trans     &trans    &trans    &trans                        &trans
             >;
